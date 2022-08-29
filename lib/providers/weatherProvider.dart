@@ -7,7 +7,7 @@ import '../models/weather.dart';
 import '../models/dailyWeather.dart';
 
 class WeatherProvider with ChangeNotifier {
-  String apiKey = '8b86dcf703483d4a0ad63a6a3ef0156c';
+  String apiKey = ''; // enter your api key
   Weather weather = Weather();
   DailyWeather currentWeather = DailyWeather();
   List<DailyWeather> fiveDayWeather = [];
